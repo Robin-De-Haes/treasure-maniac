@@ -1,0 +1,19 @@
+
+
+.informationMessage
+{
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Arial";
+    -fx-font-size: 15;
+    -fx-font-style: italic;
+    -fx-font-weight:normal;
+}
+
+.errorMessage           
+{
+    -fx-text-fill: red;
+    -fx-font-family: "Arial";
+    -fx-font-size:15;
+    -fx-font-style: italic;
+    -fx-font-weight:bold;
+}

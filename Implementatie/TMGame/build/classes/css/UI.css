@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 29, 2014, 11:53:14 AM
+    Author     : pieterjan
+*/
+
+.playerFrame {
+    -fx-background-image: url("/images/UI/avatarFrame.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.playerName {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.stats {
+    -fx-text-fill: #ffffff;
+    font-size: 14px;
+}
+
+.startscreen {
+    -fx-background-image: url("/images/UI/startscreen.png");
+    -fx-background-position: center;
+    -fx-border: 1px solid; 
+    -fx-border-color: #000; 
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.titlescreen {
+    -fx-background-image: url("/images/UI/titlescreen.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.scorescreen {
+    -fx-background-image: url("/images/UI/scorescreen.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.transparent {
+    -fx-background-color: transparent;
+}
+
+.scorescreen-item {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+}
+
+.scorescreen-font {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+}
+
+.fontWhite {
+    -fx-text-fill: #ffffff;
+}
+
+.detailgame
+{
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 1,1,0,1 );
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 1,1,1,0 );
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 1,1,-1,0 );
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 1,1,0,-1 );
+}
+
+.panel
+{
+    -fx-background-image: url("/images/UI/panescreen.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.panel-titel
+{
+    -fx-background-image: url("/images/UI/titelFrame.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-text-alignment: center;
+}
+.panel-button
+{
+    -fx-background-image: url("/images/UI/redButton.gif");
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-background-color: transparent;
+}
+.panel-button:pressed{
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+    -fx-background-color: transparent;
+
+}
+.panel-cell1{
+    -fx-background-color: #7E92AD;
+}
+.panel-cell2{
+    -fx-background-color: #647489;
+}

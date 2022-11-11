@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 9, 2014, 2:11:04 PM
+    Author     : pieterjan
+*/
+
+.info{
+    -fx-background-image: url("/images/background/Start.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+.ruinedcity {
+        -fx-background-image: url("/images/background/RuinedCity.jpg");
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+}
+
+.sky {
+    -fx-background-image: url("/images/background/Sky.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.stonewall {
+    -fx-background-image: url("/images/background/StoneWall.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.ancientcity {
+    -fx-background-image: url("/images/background/AncientCity.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.nightsky {
+    -fx-background-image: url("/images/background/NightSky.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.greenhills {
+    -fx-background-image: url("/images/background/GreenHills.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.desert {
+    -fx-background-image: url("/images/background/Desert.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

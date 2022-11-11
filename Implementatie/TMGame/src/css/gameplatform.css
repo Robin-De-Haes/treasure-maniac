@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 9, 2014, 1:28:31 PM
+    Author     : pieterjan
+*/
+
+.wasteland {
+    -fx-background-image: url("/images/tiles/wasteland.png");
+    -fx-background-repeat: repeat-x;
+    -fx-background-position: top;
+    -fx-background-color: #6c5353;
+}
+
+.grass {
+    -fx-background-image: url("/images/tiles/grass.png");
+    -fx-background-repeat: repeat-x;
+    -fx-background-position: top;
+    -fx-background-color: #6c5353;
+}
